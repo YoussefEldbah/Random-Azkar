@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F1F1F1; 
+}
+
+.text-center {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%; 
+    width: 100%;
+}
+
+h1 {
+    color: #333B69;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #AC6CFF;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b4bd3;
+}
+
+#azkar {
+    font-size: 1.3rem;
+    color: #333B69;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .text-center {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    #azkar {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+        padding: 12px 25px;
+    }
+
+    #azkar {
+        font-size: 1.2rem;
+    }
+}
